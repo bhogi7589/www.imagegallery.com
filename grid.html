@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Image Gallery</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" href="https://code.recuweb.com/c/u/3a09f4cf991c32bd735fa06db67889e5/2018/08/wordpress-photo-gallery-plugins1.png">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <style>
+            .container {
+                background-color: white;
+                text-align: center;
+            }
+            
+            body {
+                background-color: aqua;
+            }
+            
+            #active {
+                background-color: green;
+                margin-left: 30px;
+            }
+            
+            #unactive {
+                margin-right: 30px;
+            }
+            
+            .nav-item {
+                font-family: cursive;
+                font-size: 23px;
+            }
+            
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <nav class="navbar navbar-expand-sm bg-dark justify-content-center fixed-top">
+                <ul class="navbar-nav">
+                    <li class="nav-item" id="unactive"><a class="nav-link" href="index.html"><b>SlideShow View</b></a></li>
+                    <li class="nav-item" id="active"><a class="nav-link" href="grid.html"><b>Grid View</b></a></li>
+                </ul>
+            </nav>
+            <br><br><br><br>
+            <div class="row">
+                <div class="col"><img src="blue.jpg"></div>
+                <div class="col"><img src="flowers.gif"></div>
+                <div class="col"><img src="Orange.png"></div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col"><img src="Pink%20tulip.jpg"></div>
+                <div class="col"><img src="purple.jpg"></div>
+                <div class="col"><img src="Red%20rose.jpg"></div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col"><img src="violet.jpg"></div>
+                <div class="col"><img src="White.jpg"></div>
+                <div class="col"><img src="yellow.jpg"></div>
+            </div>
+        </div>
+    </body>
+</html>
